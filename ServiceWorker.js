@@ -1,9 +1,9 @@
 const cacheName = "vintorog-CampusRunner-0.0.20";
 const contentToCache = [
     "Build/web_8_22_v_0.0.20.loader.js",
-    "Build/web_8_22_v_0.0.20.framework.js",
-    "Build/web_8_22_v_0.0.20.data",
-    "Build/web_8_22_v_0.0.20.wasm",
+    "Build/web_8_22_v_0.0.20.framework.js.br",
+    "Build/web_8_22_v_0.0.20.data.br",
+    "Build/web_8_22_v_0.0.20.wasm.br",
     "TemplateData/style.css"
 
 ];
