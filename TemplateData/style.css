@@ -1,8 +1,25 @@
 body { padding: 0; margin: 0 }
 #unity-container { position: fixed; width: 100%; height: 100%; }
-#unity-canvas { width: 100%; height: 100%; background: #231F20 }
+#unity-canvas { width: 100%; height: 100%; background:#000000;
+}
 #unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
 #unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
 #unity-progress-bar-empty { margin-left: auto; margin-right: auto; width: 141px; height: 18px; margin-top: 10px; background: url('progress-bar-empty-dark.png') no-repeat center }
 #unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+
+#video-logo
+{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#custom-logo 
+{
+  width: 200px;  /* Set width to 200px */
+  height: 200px; /* Set height to 200px */
+  background: url('RTLogo.png') no-repeat center;
+  background-size: contain; /* Ensure the image scales to fit     within the container */
+}
